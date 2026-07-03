@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Anime-inspired professional portfolio for UI/UX Designer and Web Developer" />
+  <meta name="keywords" content="portfolio, UI UX designer, web developer, anime portfolio, demon slayer inspired" />
+  <meta name="author" content="Your Name" />
+  <title>JAYASURYA M | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loader-ring"></div>
+    <p>Loading...</p>
+  </div>
+
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="custom-cursor" id="customCursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <header class="header">
+    <nav class="nav container">
+      <a href="#home" class="logo">JAYASURYA M</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="water-wave"></div>
+      <div class="container hero-content">
+        <div class="hero-text reveal">
+          <p class="subtitle japanese">こんにちは, I am</p>
+          <h1>JAYASURYA M</h1>
+          <h2>UI/UX Designer | Web Developer</h2>
+          <p class="hero-description">
+           I am a UI/UX Designer and Front-End Developer passionate about creating modern, responsive, and engaging digital experiences. I design with purpose and build with precision.
+          </p>
+          <div class="hero-buttons">
+            <a href="assets/resume.pdf" class="btn btn-primary" download>Download Resume</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-image reveal">
+          <div class="profile-frame">
+            <img src="assets/profile.jpg" alt="Profile Photo" class="profile-photo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container">
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="glass-card reveal">
+          <p>
+            Hello! I'm <strong>Jaysurya M</strong>, a passionate UI/UX Designer and Front-end Developer.
+            I create responsive, user-friendly websites and polished interfaces using HTML, CSS, JavaScript, and Figma.
+          </p>
+          <p>
+            Based in Coimbatore, Tamil Nadu, India, I focus on building digital experiences that are both visually striking and practical.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="container">
+        <h2 class="section-title reveal">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card reveal"><h3>HTML</h3><div class="skill-bar"><span style="width:95%"></span></div><p>95%</p></div>
+          <div class="skill-card reveal"><h3>CSS</h3><div class="skill-bar"><span style="width:90%"></span></div><p>90%</p></div>
+          <div class="skill-card reveal"><h3>JavaScript</h3><div class="skill-bar"><span style="width:80%"></span></div><p>80%</p></div>
+          <div class="skill-card reveal"><h3>Python</h3><div class="skill-bar"><span style="width:75%"></span></div><p>75%</p></div>
+          <div class="skill-card reveal"><h3>Figma</h3><div class="skill-bar"><span style="width:90%"></span></div><p>90%</p></div>
+          <div class="skill-card reveal"><h3>Photoshop</h3><div class="skill-bar"><span style="width:92%"></span></div><p>92%</p></div>
+          <div class="skill-card reveal"><h3>Illustrator</h3><div class="skill-bar"><span style="width:94%"></span></div><p>94%</p></div>
+          <div class="skill-card reveal"><h3>InDesign</h3><div class="skill-bar"><span style="width:96%"></span></div><p>96%</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="container">
+        <h2 class="section-title reveal">Projects</h2>
+        <p class="section-subtitle reveal">Swipe or scroll right to left to explore my work</p>
+
+        <div class="projects-carousel" id="projectsCarousel">
+          <article class="project-card reveal">
+            <div class="project-image"><img src="assets/projects/sports.jpg" alt="Sports Logo"></div>
+            <div class="project-content">
+              <span class="project-type">UI/UX Design</span>
+              <h3>Sports Logo</h3>
+              <p>Created a bold and energetic sports logo representing strength, motion, and competitive spirit with a scalable modern identity.</p>
+              <div class="project-tags"><span>Figma</span><span>Illustrator</span><span>Photoshop</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image"><img src="assets/projects/art.jpg" alt="Revival Art Festival"></div>
+            <div class="project-content">
+              <span class="project-type">UI/UX Design</span>
+              <h3>Revival Art Festival</h3>
+              <p>Designed a vibrant festival poster combining traditional art elements with modern typography to represent creativity and culture..</p>
+              <div class="project-tags"><span>Photoshop</span><span>Illustrator</span><span>Figma</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image"><img src="assets/projects/ad.jpg" alt="Crunchyroll Product Ad"></div>
+            <div class="project-content">
+              <span class="project-type">UI/UX Design</span>
+              <h3>Crunchyroll Product Ad</h3>
+              <p>Created a high-impact anime-themed light box ad using neon effects and bold visuals for strong brand attraction and visibility.</p>
+              <div class="project-tags"><span>Figma</span><span>Photoshop</span><span>Illustrator</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image"><img src="assets/projects/mag.jpg" alt="Yoga Magazine"></div>
+            <div class="project-content">
+              <span class="project-type">UI & UX Design</span>
+              <h3>Yoga Magazine</h3>
+              <p>Designed a calm and minimal magazine UI focused on wellness, using soft colors and spacious layouts to create a peaceful reading experience.</p>
+              <div class="project-tags"><span>Figma</span><span>Photoshop</span><span>Illustrator</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container">
+        <h2 class="section-title reveal">Contact</h2>
+        <div class="contact-grid">
+          <div class="contact-info glass-card reveal">
+            <p><strong>Email:</strong> hokagae2006@gmail.com</p>
+            <p><strong>Phone:</strong> +91 6382522059</p>
+            <p><strong>Location:</strong> Coimbatore, Tamil Nadu, India</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jayasurya-m-4b4b43309?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer">Jayasurya M</a></p>
+            <p><strong>GitHub:</strong> <a href="https://www.instagram.com/classic_lit_club?igsh=MTd2aGhyMGliaG9nMA==" target="_blank" rel="noopener noreferrer">Jayasurya M</a></p>
+            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/izuro_03?igsh=MTd2aGhyMGliaG9nMA==" target="_blank" rel="noopener noreferrer">izuro_03</a></p>
+          </div>
+
+          <form class="contact-form glass-card reveal">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Designed by Jayasurya M | Thanks for visiting my portfolio ❤️  | © 2026</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
